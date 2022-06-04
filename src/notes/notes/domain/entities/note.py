@@ -1,10 +1,10 @@
 from typing import List
-from typing_extensions import TypeAlias
 from unittest.mock import NonCallableMagicMock
 from uuid import UUID
 
-from notes.domain.entities.tag import TagID
+from typing_extensions import TypeAlias
 
+from notes.domain.entities.tag import TagID
 
 NoteID: TypeAlias = UUID
 NoteTitle: TypeAlias = str

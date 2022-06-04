@@ -1,10 +1,10 @@
 from typing import List
-from typing_extensions import TypeAlias
 from uuid import UUID
+
+from typing_extensions import TypeAlias
 
 from notes.domain.entities.note import NoteID
 from notes.domain.entities.tag import TagID
-
 
 UserID: TypeAlias = UUID
 
