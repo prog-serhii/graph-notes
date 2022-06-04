@@ -30,3 +30,27 @@ class User:
 
     def __str__(self) -> str:
         return f'User {self.id}'
+
+    def can_add_note(self, note_id: NoteID) -> bool:
+        pass
+
+    def add_note(self, note_id: NoteID) -> None:
+        pass
+
+    def can_remove_note(self, note_id: NoteID) -> bool:
+        pass
+
+    def remove_note(self, note_id: NoteID) -> None:
+        pass
+
+    def can_add_tag(self, tag_id: TagID) -> bool:
+        pass
+
+    def add_tag(self, tag_id: TagID) -> None:
+        pass
+
+    def can_remove_tag(self, tag_id: TagID) -> bool:
+        pass
+
+    def remove_tag(self, tag_id: TagID) -> None:
+        pass

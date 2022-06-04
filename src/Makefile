@@ -9,3 +9,7 @@ flake8:
 .PHONY: isort
 isort:
 	isort .
+
+.PHONY: test
+test:
+	pytest .
