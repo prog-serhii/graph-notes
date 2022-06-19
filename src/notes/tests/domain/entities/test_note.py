@@ -1,6 +1,6 @@
 from uuid import uuid4
 
-from notes.domain.entities.note import Note
+from notes.domain.entities import Note
 
 
 def test_note_string_representation(faker):

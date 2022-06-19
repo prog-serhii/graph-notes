@@ -53,8 +53,7 @@ note_to_user = Table(
 
 def start_mappers() -> None:
     tags_mapper = mapper(Tag, tags)
-    notes_mapper = mapper(Note, notes)
-    mapper(
+    notes_mapper = mapper(
         Note, notes,
         properties={
             'tags': relationship(

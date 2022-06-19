@@ -14,8 +14,8 @@ class User:
 
     def __init__(self, id: UserID) -> None:
         self.id = id
-        self.notes = List[NoteID]
-        self.tags = List[TagID]
+        self.notes: List[NoteID] = []
+        self.tags: List[TagID] = []
 
     def __eq__(self, other: object) -> bool:
         if not isinstance(other, User):

@@ -1,5 +1,4 @@
 from typing import List
-from unittest.mock import NonCallableMagicMock
 from uuid import UUID
 
 from typing_extensions import TypeAlias
