@@ -1,9 +1,4 @@
-from uuid import UUID
-
-from typing_extensions import TypeAlias
-
-TagID: TypeAlias = UUID
-TagName: TypeAlias = str
+from notes.domain.value_objects import TagID, TagName
 
 
 class Tag:
